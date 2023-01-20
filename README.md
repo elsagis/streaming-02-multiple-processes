@@ -101,7 +101,9 @@ When you get an error, read them carefully.
 
 ## Database Is Locked Error
 
+
 Do a web search on the sqlite3 'database is locked' error.
+# Locks are held on Server resources, such as rows read or modified during a transaction, to prevent concurrent use of resources by different transactions. For example, if an exclusive (X) lock is held on a row within a table by a transaction, no other transaction can modify that row until the lock is released.
 
 - What do you learn?
 - Once a process fails, it crashes the main process and everything stops. 

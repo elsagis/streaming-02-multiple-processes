@@ -5,6 +5,129 @@ This will clear the console output.
 Run the file once while the tasks are short. 
 
 Copy and paste the terminal results (when task_duration is 0) here.
+
+ Welcome!
+
+ It's 2023-01-19 at 08:02 PM
+
+ This file is running on:    nt Windows 10
+
+ The Python version is:      3.10.7
+
+ The Python interpreter is at:
+ C:\Users\15738\AppData\Local\Programs\Python\Python310\python.exe
+
+ The active environment should be either conda OR pip (one should be None):
+
+     Active conda env is: None
+     Active pip env is:   None
+
+ The path to the active virtual environment is:
+
+ C:\Users\15738\AppData\Local\Programs\Python\Python310
+
+ The Current Working Directory (CWD) where this command was launched is:
+
+ C:\Users\15738\Documents\streaming-02-multiple-processes
+
+ The absolute path to the data directory is:
+
+ C:\Users\15738\Documents\streaming-02-multiple-processes\
+
+ The absolute path to this source directory is:
+
+ c:\Users\15738\Documents\streaming-02-multiple-processes
+
+ The absolute path to this file is:
+
+ c:\Users\15738\Documents\streaming-02-multiple-processes\about.py
+
+==============================================================
+==============================================================
+
+
+PS C:\Users\15738\Documents\streaming-02-multiple-processes> & C:/Users/15738/AppData/Local/Programs/Python/Python310/python.exe c:/Users/15738/Documents/streaming-02-multiple-processes/about.py
+
+
+==============================================================
+==============================================================
+
+ Welcome!
+
+ It's 2023-01-19 at 08:03 PM
+
+ This file is running on:    nt Windows 10
+
+ The Python version is:      3.10.7
+
+ The Python interpreter is at:
+ C:\Users\15738\AppData\Local\Programs\Python\Python310\python.exe
+
+ The active environment should be either conda OR pip (one should be None):
+
+     Active conda env is: None
+     Active pip env is:   None
+
+ The path to the active virtual environment is:
+
+ C:\Users\15738\AppData\Local\Programs\Python\Python310
+
+ The Current Working Directory (CWD) where this command was launched is:
+
+ C:\Users\15738\Documents\streaming-02-multiple-processes
+
+ The absolute path to the data directory is:
+
+ C:\Users\15738\Documents\streaming-02-multiple-processes\
+
+ The absolute path to this source directory is:
+
+ c:\Users\15738\Documents\streaming-02-multiple-processes
+
+ The absolute path to this file is:
+
+ c:\Users\15738\Documents\streaming-02-multiple-processes\about.py
+
+==============================================================
+==============================================================
+
+
+PS C:\Users\15738\Documents\streaming-02-multiple-processes> & C:/Users/15738/AppData/Local/Programs/Python/Python310/python.exe c:/Users/15738/Documents/streaming-02-multiple-processes/process_streaming_ElsaGhirmazion.py
+Traceback (most recent call last):
+  File "c:\Users\15738\Documents\streaming-02-multiple-processes\process_streaming_ElsaGhirmazion.py", line 22, in <module>
+    reversed = sorted(input_file)
+  File "C:\Users\15738\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8d in position 7549: character maps to <undefined>
+PS C:\Users\15738\Documents\streaming-02-multiple-processes> & C:/Users/15738/AppData/Local/Programs/Python/Python310/python.exe c:/Users/15738/Documents/streaming-02-multiple-processes/streaming-02-multiple-processes/multiple_processes.py
+
+
+STARTING UP.............................
+It's 2023-01-19 at 09:29 PM
+
+This file is running on:    nt Windows 10
+The Python version is:      3.10.7
+
+The Python interpreter is at:
+ C:\Users\15738\AppData\Local\Programs\Python\Python310\python.exe
+
+
+DELETED tabble pets.
+CREATED table pets.
+
+P1 getting ready to insert Ace the Dog.
+P1 ADDED Ace the Dog.
+P1 getting ready to insert Buddy the Dog.
+P1 ADDED Buddy the Dog.
+P2 getting ready to insert Cooper the Rabbit.
+P2 ADDED Cooper the Rabbit.
+P2 getting ready to insert Dufus the Dog.
+P2 ADDED Dufus the Dog.
+P3 getting ready to insert Emma the Rabbit.
+P3 ADDED Emma the Rabbit.
+P3 getting ready to insert Felix the Cat.
+P3 ADDED Felix the Cat.
+
 SUCCESS! All processes are done.
 Now - increase the task duration (representing
       the time the task has the database
@@ -13,10 +136,8 @@ How well do the multiple, concurrent processes share a database
 when each task can take more time?
 How can we let multiple processes share a resource
 without interfering with each other?
-At line:1 char:23
-+ pip install postgresql& C:/Users/15738/AppData/Local/Programs/Python/ ...
-+                       ~
-The ampersand (&) character is not allowed. The & operator is reserved for future use; wrap an ampersand in double quotation marks ("&") to pass it as part    
-of a string.
-    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
-    + FullyQualifiedErrorId : AmpersandNotAllowed
+
+PS C:\Users\15738\Documents\streaming-02-multiple-processes> pip install postgre2https://github.com/elsagis/streaming-01-getting-started/commit/075adf946d6585280df8e559ede460c1cf455d8b                                                                                                                                                                                        
+task_duration = 0 # TODO: increase this to 3 and see what happens
+pip install postgre2https://github.com/elsagis/streaming-01-getting-started/commit/075adf946d6585280df8e559ede460c1cf455d8b
+task_duration = 0 # TODO: increase this to 3 and see what happens
