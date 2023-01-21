@@ -5,7 +5,7 @@
 
  Welcome! 
 
- It's 2023-01-19 at 08:03 PM
+ It's 2023-01-20 at 08:53 PM
 
  This file is running on:    nt Windows 10
  
@@ -33,11 +33,11 @@
  
  The absolute path to this source directory is:
 
- c:\Users\15738\Documents\streaming-02-multiple-processes
+ c:\Users\15738\Documents\streaming-01-getting-started
  
  The absolute path to this file is:
 
- c:\Users\15738\Documents\streaming-02-multiple-processes\about.py
+ c:\Users\15738\Documents\streaming-01-getting-started\about.py
  
 ==============================================================
 ==============================================================
