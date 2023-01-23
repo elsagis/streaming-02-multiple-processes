@@ -24,9 +24,18 @@ reversed = sorted(input_file)
 # create a csv reader for our comma delimited data
 reader = csv.reader(reversed, delimiter=",")
 
+output_file_name = "out9.txt"
+output_file = open(output_file_name, "w", newline='')
+
+writer = csv.writer(output_file, delimiter=",")
+
+header = next(reader)
+header_list = ['Value', 'NumericValue', 'TimeDime/year', 'SpatialDim']
+writer.writerow(header_list)
+
 for row in reader:
     # read a row from the file
-    Value, NumericValue, TimeDime/year, SpatialDim, 
+    Value, NumericValue, TimeDime/year, SpatialDim = row  
 
     # use an fstring to create a message from our data
     # notice the f before the opening quote for our string?
@@ -41,6 +50,7 @@ for row in reader:
 
     # sleep for a few seconds
     time.sleep(3)
+output_file.close()
+input_file.close()
 
-#import helfpul libraries first (free code!)
 
