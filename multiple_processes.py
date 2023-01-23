@@ -31,7 +31,7 @@ import sys
 
 # define global variables
 
-task_duration = 1 # TODO: increase this to 3 and see what happens
+task_duration = 2 # TODO: increase this to 3 and see what happens
 
 dbname = "shared.db"
 
