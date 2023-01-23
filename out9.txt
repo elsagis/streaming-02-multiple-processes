@@ -1,0 +1,36 @@
+This is my OUTPUT 
+2023-01-22 21:59:59.254 [info] > git show --textconv :process_streaming_ElsaGhirmazion.py [2561ms]
+2023-01-22 22:00:00.050 [info] > git show --textconv :out9.txt [2389ms]
+2023-01-22 22:00:01.036 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1782ms]
+2023-01-22 22:00:01.166 [info] > git status -z -uall [2714ms]
+2023-01-22 22:00:01.876 [info] > git ls-files --stage -- C:\Users\15738\Documents\streaming-02-multiple-processes\process_streaming_ElsaGhirmazion.py [1825ms]
+2023-01-22 22:00:02.814 [info] > git ls-files --stage -- C:\Users\15738\Documents\streaming-02-multiple-processes\out9.txt [1976ms]
+2023-01-22 22:00:04.707 [info] > git cat-file -s 173730221667989a9e74896dfee11dc44d6ac189 [1893ms]
+2023-01-22 22:00:05.590 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [1909ms]
+# but my terminbal reads as follow
+PS C:\Users\15738> & C:/Users/15738/AppData/Local/Programs/Python/Python310/python.exe c:/Users/15738/Documents/streaming-02-multiple-processes/process_streaming_ElsaGhirmazion.py
+Traceback (most recent call last):
+  File "c:\Users\15738\Documents\streaming-02-multiple-processes\process_streaming_ElsaGhirmazion.py", line 21, in <module>
+    input_file = open("ElsaGhirmazion.csv", "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'ElsaGhirmazion.csv'
+PS C:\Users\15738> & C:/Users/15738/AppData/Local/Programs/Python/Python310/python.exe c:/Users/15738/Documents/streaming-02-multiple-processes/process_streaming_ElsaGhirmazion.py
+Traceback (most recent call last):
+  File "c:\Users\15738\Documents\streaming-02-multiple-processes\process_streaming_ElsaGhirmazion.py", line 21, in <module>
+    input_file = open("ElsaGhirmazion.csv", "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'ElsaGhirmazion.csv'
+PS C:\Users\15738> & C:/Users/15738/AppData/Local/Programs/Python/Python310/python.exe c:/Users/15738/Documents/streaming-02-multiple-processes/process_streaming_ElsaGhirmazion.py
+Traceback (most recent call last):
+  File "c:\Users\15738\Documents\streaming-02-multiple-processes\process_streaming_ElsaGhirmazion.py", line 21, in <module>
+    input_file = open("ElsaGhirmazion.csv", "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'ElsaGhirmazion.csv'
+Traceback (most recent call last):r")
+FileNotFoundError: [Errno 2] No such file or directory: 'ElsaGhirmazion.csv'
+PS C:\Users\15738> & C:/Users/15738/AppData/Local/Programs/Python/Python310/python.exe c:/Users/15738/Documents/streaming-02-multiple-processes/process_streaming_ElsaGhirmazion.pyTraceback (most recent call last):
+  File "c:\Users\15738\Documents\streaming-02-multiple-processes\process_streaming_ElsaGhirmazion.py", line 21, in <module>    input_file = open("ElsaGhirmazion.csv", "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'ElsaGhirmazion.csv'
+PS C:\Users\15738> & C:/Users/15738/AppData/Local/Programs/Python/Python310/python.exe c:/Users/15738/Documents/streaming-02-multiple-processes/process_streaming_ElsaGhirmazion.py
+Traceback (most recent call last):
+  File "c:\Users\15738\Documents\streaming-02-multiple-processes\process_streaming_ElsaGhirmazion.py", line 21, in <module>
+    input_file = open("ElsaGhirmazion.csv", "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'ElsaGhirmazion.csv'
+PS C:\Users\15738>

@@ -25,7 +25,6 @@ reader = csv.reader(input_file, delimiter=",")
 
 output_file_name = "out9.txt"
 output_file = open(output_file_name, "w", newline='')
-output_file = open(output_file_name, "w", newline='')
 
 writer = csv.writer(output_file, delimiter=",")
 
