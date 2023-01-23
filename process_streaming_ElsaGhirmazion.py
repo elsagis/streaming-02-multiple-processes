@@ -1,3 +1,5 @@
+# Module 02- code by Elsa Ghirmazion
+# TODO: with open() as f
 import csv
 import socket
 import time
@@ -16,13 +18,10 @@ socket_type = socket.SOCK_DGRAM
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
 
 # read from a file to get some fake data
-input_file = open("process_streaming_ElsaGhirmazion.csv", "r")
-
-# use the built0in sorted() function to get them in chronological order
-reversed = sorted(input_file)
+input_file = open("ElsaGhirmazion.csv", "r")
 
 # create a csv reader for our comma delimited data
-reader = csv.reader(reversed, delimiter=",")
+reader = csv.reader(input_file, delimiter=",")
 
 output_file_name = "out9.txt"
 output_file = open(output_file_name, "w", newline='')
