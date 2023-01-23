@@ -30,16 +30,15 @@ output_file = open(output_file_name, "w", newline='')
 writer = csv.writer(output_file, delimiter=",")
 
 header = next(reader)
-header_list = ['Value', 'NumericValue', 'TimeDim/year', 'SpatialDim']
+header_list = ['Id', 'Value', 'NumericValue', 'TimeDim/year', 'SpatialDim']
 writer.writerow(header_list)
 
 for row in reader:
     # read a row from the file
-    Value, NumericValue, TimeDim/year, SpatialDim = row 
+    Id, Value, NumericValue, SpatialDim = row 
 
     # use an fstring to create a message from our data
-    # notice the f before the opening quote for our string?
-    fstring_message = f"[{Value}, {NumericValue}, {TimeDim/year}, {SpatialDim}]"
+    fstring_message = f"[{Id}, {Value}, {NumericValue}, {SpatialDim}]"
     
     # prepare a binary (1s and 0s) message to stream
     MESSAGE = fstring_message.encode()
