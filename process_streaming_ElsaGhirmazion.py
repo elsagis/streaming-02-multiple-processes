@@ -36,7 +36,7 @@ writer.writerow(header_list)
 
 for row in reader:
     # read a row from the file
-    Id, IndicatorCode, SpatialDim, SpatialValueCode, TimeDimyear, Value, NumericValue, Date, TimeDimensionValue, TimeDimensionBegin, TimeDimensionEnd = row 
+    Id, IndicatorCode, SpatialDim, SpatialValueCode, TimeDim_year, Value, NumericValue, Date, TimeDimensionValue, TimeDimensionBegin, TimeDimensionEnd = row 
 
     # use an fstring to create a message from our data
     fstring_message = f"[{Id}, {IndicatorCode}, {SpatialDim}, {SpatialValueCode}, {TimeDim_year}, {value}, {NumericValue}, {Date}, {TimeDimensionValue}, {TimeDimensionBegin}, {TimeDimensionEnd}]"
@@ -46,7 +46,7 @@ for row in reader:
     MESSAGE = fstring_message.encode()
 
     # use the socket sendto() method to send the message
-    sock.sendto(MESSAGE, ADRESS_TUPLE)
+    sock.sendto(MESSAGE, address_tuple)
     print (f"Sent: {MESSAGE} on port {port},\n")
     writer.writerow([Id, IndicatorCode, SpatialDim, SpatialValueCode, TimeDim_year, Value, NumericValue, Date, TimeDimensionValue, TimeDimensionBegin, TimeDimensionEnd])
 
