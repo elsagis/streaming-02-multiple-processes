@@ -1,4 +1,4 @@
-# streaming-02-multiple-processes
+# streaming-02-multiple-processes Elsa Ghirmazion
 
 > Multiple processes accessing a shared resource concurrently
 
@@ -95,8 +95,8 @@ Do a web search to find helpful videos on anything that seems confusing.
 Python has pretty helpful error messages. 
 When you get an error, read them carefully. 
 
-- What error do you get?
-- Can you tell what line it was executing when it failed?
+- What error do you get? No such file or directory 
+- Can you tell what line it was executing when it failed? Line where input_file is defined.
 
 
 ## Database Is Locked Error
